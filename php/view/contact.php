@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>Contact Us</title>
     <?php 
-        include '../php/php/view/component/head.php';
+        include __DIR__ . '/component/head.php';
     ?>
-    <title>Home</title>
 </head>
 <body>
     <?php 
-        include './php/view/component/navbar.php'
+        include __DIR__ . '/component/navbar.php';
     ?>
-    <h1>HOME</h1>
+    <h1>Contact Us</h1>
 </body>
 </html>
